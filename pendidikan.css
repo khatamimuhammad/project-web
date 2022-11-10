@@ -1,0 +1,137 @@
+
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+nav .navbar{
+    border: 1px solid;
+    display: inline-table;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+nav .navbar::after{
+    content: ""; 
+    clear:both; 
+    display: block;
+}
+nav .navbar ul{
+    display: none;
+}
+nav .navbar li{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    float: left;
+    position: relative;
+}
+
+
+nav .navbar li:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+nav .navbar li a{
+    text-decoration: none;
+    color: white;
+}
+nav .navbar li:hover > ul{
+    display: block;
+}
+nav .navbar ul li{
+    float: none;
+    position: relative;
+}
+.kepala{
+    padding-top: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.kepala h1{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 4px;
+}
+.logo{
+    padding-top: 30px;
+    background-color:bisque;
+}
+.logo img{
+    width : 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.footer{
+    padding:30px 0;
+	background-color: rgb(0, 0, 0);
+	color:#ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+div{
+    background-color:bisque;
+}
+
+.tabel {
+    height: 100px;
+}
+
+.jadwalkuliah{
+    color: black;
+    word-spacing: 2px;
+    line-height: normal;
+}
+table{
+    text-align: center;
+    border: 1px;
+    color: blanchedalmond;
+}
+td{
+    padding: 50px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    background-color: aliceblue;
+}
+tr{
+    color: white;
+    background-color: rgb(158, 159, 159);
+}
+
+.container{
+    height: auto;
+}
+h2{
+    font-size: 100px;
+}
+
+.pendidikan{
+    font-family: Georgia;
+    font-size: 40px;
+    list-style: none;
+}
+.kepala{
+    font-size: 40px;
+    border-bottom: 25px;
+}
